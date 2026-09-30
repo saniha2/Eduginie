@@ -1,0 +1,239 @@
+# Phase 6: Project Documentation Phase
+
+## Project Title: EduGenie – Google Gemini Powered Learning Assistant
+
+### 1. Introduction
+
+The Project Documentation Phase focuses on preparing complete technical and user documentation for the EduGenie application. Documentation provides detailed information about the project objectives, system requirements, architecture, development process, testing procedures, and usage instructions.
+
+It helps developers, evaluators, and users understand how the application is designed, developed, and operated.
+
+### 2. Objectives of Documentation
+
+1. To provide a complete overview of the EduGenie project.
+
+2. To document functional and non-functional requirements.
+
+3. To explain the system architecture and workflow.
+
+4. To describe the technologies and tools used.
+
+5. To provide installation and execution instructions.
+
+6. To record testing procedures and results.
+
+7. To support future maintenance and improvements.
+
+### 3. Project Overview
+
+EduGenie is a web-based AI-powered educational platform that uses Google Gemini API to assist students in learning.
+
+The application provides:
+
+* AI chatbot for academic doubts.
+
+* Automatic study notes generation.
+
+* Educational content summarization.
+
+* Simple explanations of difficult topics.
+
+* Exam preparation questions and answers.
+
+* Interactive and user-friendly interface.
+
+### 4. Technical Documentation
+
+|
+Component
+
+|
+
+Description
+
+|
+| --- | --- |
+|
+
+Project Name
+
+|
+
+EduGenie
+
+|
+|
+
+Frontend
+
+|
+
+HTML, CSS, JavaScript
+
+|
+|
+
+Backend
+
+|
+
+Python Flask
+
+|
+|
+
+AI Model
+
+|
+
+Google Gemini API
+
+|
+|
+
+IDE
+
+|
+
+Visual Studio Code
+
+|
+|
+
+Browser
+
+|
+
+Google Chrome
+
+|
+|
+
+Platform
+
+|
+
+Web Application
+
+|
+
+### 5. System Architecture
+
+Frontend
+
+HTML, CSS, JavaScript
+
+Backend
+
+Python Flask
+
+AI Integration
+
+Google Gemini API
+
+AI-Generated Learning Content
+
+### 6. User Manual
+
+Step 1: Open the EduGenie web application in a browser.
+
+Step 2: Navigate to the AI chatbot section.
+
+Step 3: Enter an academic question or topic.
+
+Step 4: Click the Send or Generate button.
+
+Step 5: Wait for the AI-generated response.
+
+Step 6: Read the answer, generated notes, summary, or practice questions.
+
+### 7. Installation and Execution
+
+Requirements:
+
+* Python installed on the system.
+
+* Flask framework.
+
+* Google Gemini API key.
+
+* Visual Studio Code.
+
+* Internet connection.
+
+Basic execution commands:
+
+Bash
+
+```
+pip install flask
+python app.py
+```
+
+The application can then be accessed through the local development address displayed by Flask.
+
+The Gemini SDK and other dependencies must also be installed according to the project's source code. Keep API keys in environment variables rather than exposing them in frontend code.
+
+### 8. Documentation Screenshots
+
+Include screenshots of the following actual project components in the final report.
+
+Screenshot 1
+
+Project Home Page
+
+![AI Smart Tutor Web App Template | Aura](https://images.openai.com/static-rsc-4/okg3qLWh7wNU4pOsciiSM7kOWT2yuTJQv88D9B21wl88IPFj0TjYxi2npwcyA5iRplO4lDbRppgU3Ze05Tvxcp4e48vKX2Rlj0jEuJN0ztChdhaWRqU13nACGHzM2twLRaQn8_I9r0jyHbCQ1s7GpxhAr-614teQ0v-kAsVmMGU?purpose=inline)
+
+Displays the EduGenie application interface.
+
+Screenshot 2
+
+AI Chatbot Output
+
+![AI Study Buddy for South African Students | StudyBru](https://images.openai.com/static-rsc-4/hUyBpNrffDCZz24FcS85f7fL0u5eAVr4KQxJY1HyPM3xC8u2HrwMQC2hoZN54eATDt5387fbHtBsS0dJ9hWQimELmE2AAMZEBxXjpF6gRUHOrxhj9pfFa_O46gPR892s0nRbLkC1UwYyde3w3JBie3yYReJ32UYQe99gbjcldgk?purpose=inline)
+
+Shows an example of academic question answering.
+
+Screenshot 3
+
+Application Source Code
+
+![Future-Proofing Careers: Coding Programming Courses - TutorX](https://images.openai.com/static-rsc-4/HmS0tdW6FlBJ5d7IfC3MBCSObsY6IWpHMloXi6p2rFVIevtbyIOKxRDFPt2aN8IGTtkFJdw3hx5HWvos-ZKEcUKwq9jkCVOmHoTaZRp8lloKUNA1r57OzSP9-OfWgb4a5svYUB7Gc53Bw2yr0xXD8gnoN2vbs_3-2GCPNduSnbo?purpose=inline)
+
+Shows the backend development environment.
+
+Illustrative references only. Use genuine screenshots from your developed application for submission.
+
+### 9. Expected Documentation Deliverables
+
+The final project documentation should contain:
+
+1. Project title and team details.
+
+2. Abstract.
+
+3. Introduction and objectives.
+
+4. Problem statement.
+
+5. Requirement analysis.
+
+6. System architecture and design.
+
+7. Development methodology.
+
+8. Implementation details.
+
+9. Testing and validation results.
+
+10. Screenshots.
+
+11. Conclusion and future enhancements.
+
+12. References.
+
+### 10. Conclusion
+
+The Project Documentation Phase provides a complete record of the EduGenie development process. It makes the project easier to understand, maintain, evaluate, and improve in the future.
+
+Next Phase: Phase 7 – Deployment and Demonstration.
