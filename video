@@ -1,0 +1,390 @@
+Understood! 😊 You want the EduGenie project demonstration video to show the complete development process in VS Code AND the actual working website, not just a PowerPoint presentation.
+
+For your SmartBridge submission, we will structure the video as a real project walkthrough.
+
+# EduGenie – Complete Project Demo Video
+
+VS Code + All Source Files + Live Website
+
+Duration: 5–7 minutes recommended Language: English Recording style: Full desktop screen recording with voice narration
+
+## 1. Complete Video Structure
+
+|
+Scene
+
+|
+
+What should be visible
+
+|
+
+Duration
+
+|
+| --- | --- | --- |
+|
+
+1
+
+|
+
+Project introduction
+
+|
+
+20 sec
+
+|
+|
+
+2
+
+|
+
+VS Code project folder and all files
+
+|
+
+45 sec
+
+|
+|
+
+3
+
+|
+
+Python backend code (`app.py`)
+
+|
+
+60 sec
+
+|
+|
+
+4
+
+|
+
+HTML, CSS, JavaScript files
+
+|
+
+60 sec
+
+|
+|
+
+5
+
+|
+
+Gemini API integration
+
+|
+
+30 sec
+
+|
+|
+
+6
+
+|
+
+Run application in VS Code terminal
+
+|
+
+30 sec
+
+|
+|
+
+7
+
+|
+
+Open and demonstrate working website
+
+|
+
+2 min
+
+|
+|
+
+8
+
+|
+
+Final conclusion
+
+|
+
+20 sec
+
+|
+
+# 2. Scene-by-Scene Screen Recording
+
+## Scene 1: Project Introduction
+
+![새로운 도구보다 ‘검증된 도구’를 활용해야… 개발 환경 설정 극대화하기‍](https://images.openai.com/static-rsc-4/D_tt3pJRm_5ApNG6yOpx9FQXKPIdS4k4aBn0P6BklitMzIgSzDMRpv6dqYZyyXZ5ReifE_oILkafw94XPhU6MahHIjUu7kpEBd_PQEYXrCZbtMQ-MG8QS4xO0aihnR_VA193yv8BIRIpwxrmYSg3epZWgPGtGI7yuyMSzuqFM_0?purpose=inline)
+
+Narration:
+
+"Good morning everyone. We are Group 4, presenting our project EduGenie – Google Gemini Powered Learning Assistant.
+
+This project is developed to help students understand academic concepts, generate study notes, summarize educational content, and prepare for examinations using Generative AI."
+
+## Scene 2: Show All Project Files in VS Code
+
+![Creating an online code editor for Python with Flask | by Kevin Smekens | Medium](https://images.openai.com/static-rsc-4/i9PE5OcsCGoJZs3nji5fRAtl9xGOgbCXH2TyDsriSOTwBGZfxzq8MFx4knVT01qrlxvKQNFOktRV7G7sjnY7RNHdFWfXHKVvYmDSiIVH09ji2FvC3-9b9Iw85temjwo51-t5qo29eyHQbfrPykaAGkV_nZCk74cWahl2wh1r_hI?purpose=inline)
+
+Screen recording actions:
+
+1. Open Visual Studio Code.
+
+2. Open your EduGenie project folder.
+
+3. Expand the Explorer sidebar.
+
+4. Show all folders and files.
+
+5. Slowly scroll through the project structure.
+
+Your project structure should be shown similar to:
+
+```
+EduGenie/
+│
+├── app.py
+├── .env
+├── requirements.txt
+│
+├── templates/
+│   └── index.html
+│
+└── static/
+    ├── style.css
+    └── script.js
+```
+
+Use the actual filenames in your project if they differ.
+
+Narration:
+
+"Here is the complete source code structure of our EduGenie project.
+
+The project contains the Python backend, HTML frontend, CSS styling, JavaScript functionality, and dependency configuration.
+
+Each file plays an important role in developing and running our application."
+
+## Scene 3: Explain Python Backend
+
+![¿Cómo crear mi primera aplicación web con Python y Flask? | by Angel Ariel Camargo Mamani | Data Science Bolivia | Medium](https://images.openai.com/static-rsc-4/u7smWzWbhrPAjeCHUdAIR0kI36gYvTf24iU21mI4wmkdmVV2ymJ1CAag_oEf9iGHgNDCDSkVKYr_3PZkNyAJrNW_RA8dhBwKpPDLIXikUvGt6FVfxntLAWxgd_izWFRnW_l__H9owV6E41BjVi3CGdnKfs4n0kRGaX70CoVQA7A?purpose=inline)
+
+Open `app.py`.
+
+Show these sections from your uploaded code:
+
+* Flask imports
+
+* Google Gen AI SDK
+
+* Environment variable loading
+
+* Gemini client initialization
+
+* Home route
+
+* Generate endpoint
+
+* Feature-specific prompts
+
+* JSON response and error handling
+
+Your uploaded backend uses the `gemini-2.5-flash` model.
+
+PROJECT FOLDER.txt
+
+Narration:
+
+"This is our main Python backend file.
+
+We use Flask to create the web application and Google Gen AI SDK to connect with Gemini.
+
+The home route loads the website, while the generate route accepts student requests.
+
+Depending on the selected feature, the backend prepares a suitable prompt and sends it to Gemini.
+
+The generated response is returned to the frontend and displayed to the student."
+
+## Scene 4: Show Frontend Files
+
+![Visual Studio Code Download for Windows PC (2026 Latest)](https://images.openai.com/static-rsc-4/fs8sXamDt9WdtW85tvgda6ylqxVW_yBZLm_iMDBUVve3rkieDWO1N4tRIwEFt6TFoX8leUaDZy7yCiT4u3SJ12xAnX7M2oZ2o8mPDZF_NpCfFwG1wvxuFdvF1VcTf9qHkcnMi5uQpt2jScGsdVIqVOu9YeNxyVsTwBrorYhRxfo?purpose=inline)
+
+Show:
+
+1. `index.html` – website structure.
+
+2. `style.css` – colors, layout, and responsive design.
+
+3. `script.js` – user interactions and backend communication.
+
+4. `requirements.txt` – Python dependencies.
+
+Narration:
+
+"The frontend of EduGenie is developed using HTML, CSS, and JavaScript.
+
+HTML defines the structure of the application, CSS provides the visual design, and JavaScript manages user interactions and communicates with the Flask backend.
+
+Together, these components provide an interactive learning experience."
+
+## Scene 5: Run the Application
+
+![Running code :: Modern Python Developer's Toolkit](https://images.openai.com/static-rsc-4/mLaS0gjgPz3HTn-oTLX6yWqW80se810rYCLIV0a7-yT2lhJxSJS2Vsa9y6_ZNSV6V9bXTimhFdCbhs3wJ9LxhGTzo7544rRSLeDJ2ssoo3JRtJlBFwzsc0hWjRGWCzEzQhZamKQfYMzUIH47dvMsba4DcMVkXMuYZwpXz-P06g0?purpose=inline)
+
+Screen recording actions:
+
+Open the VS Code terminal and run:
+
+Bash
+
+```
+python app.py
+```
+
+Show the Flask server running.
+
+Then open:
+
+`http://127.0.0.1:5000`
+
+Narration:
+
+"Now we are starting our EduGenie application using the Flask development server.
+
+The application is running locally, and we can access it through our web browser.
+
+Let us now demonstrate the actual working features."
+
+# 3. Live Website Demonstration
+
+Most important part of the video
+
+## Scene 6: Show the Actual Working Website
+
+![AI Study Buddy with Dynamic Real-World Examples — built with](https://images.openai.com/static-rsc-4/5Nwo80_sdoE4xDRamcjii3t6QOusXRUQ3f5RTP7T1SzTOUEVsslDot1KdjVWC_VHA9d_Mab_95ShvlVNOI74I41kUvJdhz8bME3mpwHST4m9rxAUSI81XhrDBsyBySFGnCJcnLetfujgKQgmIUSUSl7jpfNdrVNXVM9xd-222Dg?purpose=inline)
+
+Record the actual website on your screen, not the illustrative image above.
+
+### Feature 1: AI Chatbot
+
+Enter:
+
+`Explain Artificial Intelligence in simple words.`
+
+Click Send and show the actual Gemini-generated response.
+
+Narration:
+
+"First, we are demonstrating the AI chatbot.
+
+The student enters a question, and EduGenie sends it to Google Gemini through the Flask backend.
+
+The generated answer is displayed on the website, helping students understand difficult academic concepts."
+
+### Feature 2: Topic Explanation
+
+Enter:
+
+`Cyber Security`
+
+Select Explain and generate.
+
+Narration:
+
+"The topic explanation feature provides structured learning content, including an introduction, simple explanation, important points, examples, and conclusion."
+
+### Feature 3: Notes Generator
+
+Enter:
+
+`Operating System`
+
+Select Notes and generate.
+
+Narration:
+
+"The notes generator creates organized study notes with headings, definitions, important points, and examples."
+
+### Feature 4: Text Summarizer
+
+Paste a short paragraph about computer networks and generate the summary.
+
+Narration:
+
+"The summarization feature converts lengthy educational material into concise revision notes containing the main ideas and important terms."
+
+### Feature 5: Quiz Generator
+
+Enter:
+
+`Computer Networks`
+
+Select Quiz.
+
+Show the generated multiple-choice questions and answers.
+
+Narration:
+
+"Finally, the quiz feature generates practice questions with four options, correct answers, and explanations to support examination preparation."
+
+## 4. Final Closing Scene
+
+Return to the EduGenie homepage.
+
+Narration:
+
+"Thus, we have successfully demonstrated the source code structure, backend implementation, Gemini API integration, and working features of EduGenie.
+
+Our project aims to make learning more interactive and accessible through Generative AI.
+
+Thank you."
+
+# 5. Important Recording Settings
+
+## Recommended recording setup
+
+Recording area
+
+Entire desktop, including VS Code and browser
+
+Resolution
+
+1920 × 1080, if available
+
+Audio
+
+Clear English narration
+
+Output format
+
+MP4
+
+Important: Do not show your `.env` file contents or expose your Gemini API key during the recording.
+
+## One more thing about your project
+
+Your uploaded file contains the Python backend, but I do not yet have the actual HTML, CSS, and JavaScript source files available to inspect.
+
+PROJECT FOLDER.txt
+
+Please upload your complete EduGenie project ZIP folder.
+
+Then I can tailor the video script to your exact filenames, actual interface, buttons, and working features instead of using a generic project structure.
