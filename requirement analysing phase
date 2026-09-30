@@ -1,0 +1,128 @@
+# Phase 2: Requirement Analysis
+
+## Project: EduGenie – Google Gemini Powered Learning Assistant
+
+### 1. Introduction
+
+The Requirement Analysis phase focuses on identifying and understanding the needs of students and defining the functional and technical requirements of the EduGenie application. The main purpose is to develop an AI-powered educational platform that helps students learn effectively through Google Gemini AI.
+
+### 2. Functional Requirements
+
+1. User Interaction: Students can enter questions and receive AI-generated answers.
+
+2. AI Chatbot: Provide instant responses to academic doubts using Google Gemini API.
+
+3. Notes Generation: Generate simplified study notes for different subjects.
+
+4. Text Summarization: Summarize lengthy study materials into short and understandable content.
+
+5. Exam Preparation: Generate important questions, answers, and practice quizzes.
+
+6. Topic Explanation: Explain difficult topics in simple language with examples.
+
+7. User-Friendly Interface: Provide an easy-to-use interface for students.
+
+8. Response Display: Display AI-generated answers clearly and quickly.
+
+### 3. Non-Functional Requirements
+
+* Performance: The application should respond quickly to user queries.
+
+* Usability: The interface should be simple and beginner-friendly.
+
+* Security: API keys and user information should be protected.
+
+* Reliability: The application should handle errors appropriately.
+
+* Scalability: The system should support future feature additions.
+
+* Compatibility: The platform should work on modern web browsers.
+
+### 4. Hardware Requirements
+
+|
+Component
+
+|
+
+Minimum Requirement
+
+|
+| --- | --- |
+|
+
+Processor
+
+|
+
+Intel i3 or equivalent
+
+|
+|
+
+RAM
+
+|
+
+4 GB
+
+|
+|
+
+Storage
+
+|
+
+500 MB free space
+
+|
+|
+
+Internet
+
+|
+
+Stable internet connection
+
+|
+|
+
+Device
+
+|
+
+Laptop/Desktop
+
+|
+
+### 5. Software Requirements
+
+* Operating System: Windows 10/11
+
+* Frontend: HTML, CSS, JavaScript
+
+* Backend: Python / Flask
+
+* AI Model: Google Gemini API
+
+* Code Editor: Visual Studio Code
+
+* Browser: Google Chrome
+
+* API Integration: Gemini API
+
+### 6. Feasibility Study
+
+Technical Feasibility: The project can be developed using commonly available web technologies and Google's Gemini API.
+
+Economic Feasibility: The project can be developed using free development tools and available API usage tiers, subject to current limits.
+
+Operational Feasibility: Students can easily access the platform through a web browser without requiring advanced technical knowledge.
+
+### 7. Expected Outcome
+
+The final system will provide an intelligent learning assistant that helps students clarify doubts, generate notes, summarize study materials, and prepare for examinations efficiently.
+
+### 8. Conclusion
+
+The Requirement Analysis phase establishes the functional, non-functional, hardware, and software requirements of EduGenie. These requirements provide a clear foundation for the next phase, System Design.
