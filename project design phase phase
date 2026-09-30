@@ -1,0 +1,175 @@
+# Phase 3: Project Design Phase
+
+## Project Title: EduGenie – Google Gemini Powered Learning Assistant
+
+### 1. Introduction
+
+The Project Design Phase focuses on designing the structure, interface, architecture, and workflow of the EduGenie application. It explains how the system will work and how different components interact with each other.
+
+EduGenie is an AI-powered educational platform that uses Google Gemini API to help students understand academic topics, generate notes, summarize study materials, and prepare for examinations.
+
+### 2. System Architecture
+
+The system follows a three-layer architecture:
+
+Presentation Layer
+
+HTML, CSS, JavaScript
+
+Student Interface / Chat Window
+
+Application Layer
+
+Python / Flask Backend
+
+Request Processing and API Integration
+
+AI Layer
+
+Google Gemini API
+
+Answer Generation, Notes and Summarization
+
+### 3. Main Modules
+
+|
+Module
+
+|
+
+Description
+
+|
+| --- | --- |
+|
+
+AI Chatbot
+
+|
+
+Answers students' academic questions
+
+|
+|
+
+Notes Generator
+
+|
+
+Creates simple study notes
+
+|
+|
+
+Text Summarizer
+
+|
+
+Converts lengthy content into short summaries
+
+|
+|
+
+Exam Preparation
+
+|
+
+Generates practice questions and answers
+
+|
+|
+
+Topic Explainer
+
+|
+
+Explains difficult concepts with examples
+
+|
+|
+
+User Interface
+
+|
+
+Provides easy navigation and interaction
+
+|
+
+### 4. User Interface Design
+
+The EduGenie application will contain the following screens:
+
+Screen 1: Home Page
+
+* EduGenie logo and project title
+
+* Welcome message
+
+* Start Learning button
+
+* Navigation menu
+
+Screen 2: AI Chatbot
+
+* Question input box
+
+* Send button
+
+* AI-generated response area
+
+* Clear chat option
+
+Screen 3: Notes Generator
+
+* Topic input field
+
+* Generate Notes button
+
+* Generated notes display
+
+Screen 4: Exam Preparation
+
+* Subject and topic selection
+
+* Generate Questions button
+
+* Practice questions and answers
+
+### 5. Data Flow Diagram (DFD)
+
+Student
+
+EduGenie Web Interface
+
+Enter question / select feature
+
+Flask Backend
+
+Process request and connect to API
+
+Google Gemini AI
+
+Generate educational response
+
+Response Displayed to Student
+
+### 6. Technology Stack
+
+* Frontend: HTML, CSS, JavaScript
+
+* Backend: Python Flask
+
+* AI Integration: Google Gemini API
+
+* Development Tool: Visual Studio Code
+
+* Browser: Google Chrome
+
+### 7. Expected Design Outcome
+
+The design phase provides a clear blueprint for developing EduGenie. It defines the system architecture, modules, user interface, and communication between the frontend, backend, and Gemini AI.
+
+### 8. Conclusion
+
+The Project Design Phase establishes the complete structural and functional design of the EduGenie platform. This design will be used as the foundation for the next phase, Development and Implementation.
