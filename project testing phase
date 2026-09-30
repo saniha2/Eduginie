@@ -1,0 +1,231 @@
+# Phase 5: Project Testing Phase
+
+## Project Title: EduGenie – Google Gemini Powered Learning Assistant
+
+### 1. Introduction
+
+The Project Testing Phase is an important stage in the development of EduGenie. It focuses on checking the functionality, performance, usability, and reliability of the application.
+
+The main purpose of testing is to identify errors, verify that all features work correctly, and ensure that students can use the AI-powered learning assistant smoothly.
+
+### 2. Objectives of Testing
+
+1. Verify that the AI chatbot generates responses correctly.
+
+2. Check the integration of Google Gemini API.
+
+3. Test the notes generation feature.
+
+4. Verify the text summarization functionality.
+
+5. Check the exam preparation module.
+
+6. Identify and fix software errors.
+
+7. Ensure a user-friendly experience.
+
+### 3. Types of Testing
+
+1. Functional Testing
+
+Checks whether all application features work according to the requirements.
+
+2. Integration Testing
+
+Verifies the communication between the frontend, Flask backend, and Google Gemini API.
+
+3. Usability Testing
+
+Checks whether students can easily navigate and use the application.
+
+4. Performance Testing
+
+Evaluates response time and application behavior under normal usage.
+
+5. Error Handling Testing
+
+Checks how the system handles empty inputs, invalid requests, API errors, and internet connectivity issues.
+
+### 4. Test Cases
+
+|
+Test ID
+
+|
+
+Test Scenario
+
+|
+
+Expected Result
+
+|
+| --- | --- | --- |
+|
+
+TC01
+
+|
+
+Open home page
+
+|
+
+Home page loads successfully
+
+|
+|
+
+TC02
+
+|
+
+Enter academic question
+
+|
+
+AI generates an answer
+
+|
+|
+
+TC03
+
+|
+
+Generate study notes
+
+|
+
+Notes are displayed
+
+|
+|
+
+TC04
+
+|
+
+Summarize long text
+
+|
+
+Short summary is generated
+
+|
+|
+
+TC05
+
+|
+
+Generate exam questions
+
+|
+
+Practice questions appear
+
+|
+|
+
+TC06
+
+|
+
+Submit empty input
+
+|
+
+Validation message appears
+
+|
+|
+
+TC07
+
+|
+
+API connection failure
+
+|
+
+Error message is displayed
+
+|
+|
+
+TC08
+
+|
+
+Click navigation buttons
+
+|
+
+Correct section opens
+
+|
+
+### 5. Testing Workflow
+
+Start Testing
+
+Test User Interface
+
+Test Backend and Gemini API
+
+Identify and Fix Errors
+
+Final Validation
+
+### 6. Testing Screenshots
+
+Capture the following screenshots from the actual application during testing.
+
+Screenshot 1
+
+Home Page Testing
+
+![EduNova AI ERP – Smart Education Management Dashboard Design | CRM & ERP Portfolio | TechX Solutions Ahmedabad | TechX Solutions Ahmedabad](https://images.openai.com/static-rsc-4/uglEJXVMyNh4kPO55x-8bMYyfKqcdc94RYe0kH_5H9ir_G0L2YIA2jBhX3JhnOXglNIwoBQtmBHbbs1ULkyDCHx_fIWI5vPzRnrd_AN8-qEgzcLKR_mN53YEDmuJtYL_Mm_BniMNdLCOIVLTx2VhK1ui8tldS34QwVDyRmFjEX4?purpose=inline)
+
+Verifying the application homepage and navigation.
+
+Screenshot 2
+
+Chatbot Response Testing
+
+![Neowise](https://images.openai.com/static-rsc-4/q4Cejx5D2SmuH6y2wYKNP6zw2E7qNYLmz-Ck5vgldgBxdn61VFvwCkfCm_uNXXwituFCyIcFdLayJDASKrRqqqi-__MW-AmvrSC_Q-vh50hEgiPfVmPy3pKG6S1sAeAsx2tsZsHrwtkSYogDZ9gyfqZgE1Qdr6kdDVmno8jYB6A?purpose=inline)
+
+Checking whether the chatbot responds to academic questions.
+
+Screenshot 3
+
+Error Handling Testing
+
+![React TextArea | Highly Customizable Input | Syncfusion](https://images.openai.com/static-rsc-4/0AtZKiW7oy71Rnt80OlBMf7kSdZccf85UyLKWIjOwYUFXc_A2uBYQ0FWy7GaWc1A2uK33WgxFS5fdWsQH7Fv5yOEa8vv0KO2nZG5Ykpv_LownIzGah6wo2mPBb9PjpTfhaqLckgqGpoGA9QelvGzRdklrEVgtVUB8WjU6fHIkt8?purpose=inline)
+
+Verifying validation messages and error handling.
+
+Illustrative references only. Replace these with actual EduGenie testing screenshots before submission.
+
+### 7. Expected Testing Results
+
+The expected results of testing are:
+
+* All main features function correctly.
+
+* Gemini API responds to valid requests.
+
+* Notes and summaries are displayed properly.
+
+* Invalid inputs are handled appropriately.
+
+* Navigation works smoothly.
+
+* Errors are identified and corrected.
+
+### 8. Conclusion
+
+The Project Testing Phase ensures that EduGenie meets its functional and technical requirements. Testing helps improve application quality, reliability, usability, and performance before final deployment.
+
+Next Phase: Phase 6 – Deployment Phase.
