@@ -1,0 +1,189 @@
+# Phase 7: Project Demonstration Phase
+
+## Project Title: EduGenie – Google Gemini Powered Learning Assistant
+
+### 1. Introduction
+
+The Project Demonstration Phase focuses on presenting the completed EduGenie application to the project evaluator, faculty members, and users. This phase demonstrates the working features, user interface, AI integration, and overall functionality of the system.
+
+EduGenie is a web-based AI-powered educational platform that uses Google Gemini API to help students understand academic topics, generate notes, summarize study materials, and prepare for examinations.
+
+### 2. Objectives of Demonstration
+
+1. To demonstrate the working of the EduGenie application.
+
+2. To showcase the AI chatbot functionality.
+
+3. To demonstrate automatic notes generation.
+
+4. To show the text summarization feature.
+
+5. To demonstrate exam preparation tools.
+
+6. To explain the integration of Google Gemini API.
+
+7. To collect feedback from evaluators and users.
+
+### 3. Demonstration Modules
+
+|
+Module
+
+|
+
+Demonstration
+
+|
+| --- | --- |
+|
+
+Home Page
+
+|
+
+Display the application dashboard
+
+|
+|
+
+AI Chatbot
+
+|
+
+Ask academic questions and receive answers
+
+|
+|
+
+Notes Generator
+
+|
+
+Generate notes for selected topics
+
+|
+|
+
+Text Summarizer
+
+|
+
+Summarize lengthy study materials
+
+|
+|
+
+Exam Preparation
+
+|
+
+Generate practice questions
+
+|
+|
+
+AI Integration
+
+|
+
+Explain Gemini API communication
+
+|
+
+### 4. Demonstration Procedure
+
+Step 1: Application Launch
+
+Open the EduGenie web application in a browser and display the home page.
+
+Step 2: AI Chatbot Demonstration
+
+Enter a sample question:
+
+"What is Artificial Intelligence?"
+
+Click the Send button and display the generated response.
+
+Step 3: Notes Generation
+
+Enter a topic such as "Cyber Security" and generate simplified study notes.
+
+Step 4: Text Summarization
+
+Paste a paragraph of educational content and demonstrate how EduGenie converts it into a concise summary.
+
+Step 5: Exam Preparation
+
+Select a subject or topic and generate practice questions for examination preparation.
+
+Step 6: Explain Technology
+
+Briefly explain how HTML, CSS, JavaScript, Python Flask, and Google Gemini API work together.
+
+### 5. Application Demonstration Screenshots
+
+Screenshot 1
+
+EduGenie Home Page
+
+![EduGenie | Devpost](https://images.openai.com/static-rsc-4/ZEa7_04L_lsODmLWdiRYze_RNXE-ZN4a4aihUJKpcVCb8W2eTSnICmzLQFgzN7gGokv8Y1ez4BsWrJlVvohLp-aJoNFR-zjqR-MkAkcd-seEDeALoKFR8azDnSmIJIU9y-n4ISF_pIq1xe0l3XTCTD_LbIrQATdeE-_kdzy_IbE?purpose=inline)
+
+Demonstrates the main dashboard and navigation options.
+
+Screenshot 2
+
+AI Chatbot Working
+
+![Edcafe AI - Brew Teaching Materials with AI](https://images.openai.com/static-rsc-4/UYHQQor6Bh5uqFORTemShs3fEI60A39xxnjBltPDkHhxukh1QIrPHD9pWY-wwYQH1BtyTIyO3cPeUTgfA5eeHWXtyvyr-YFHP9-V-YWIWRCN1Pc2bqIjNA68aBmqHGT2CKM2FN1EuhJISX9e005tRqHaViOi6yxldhi3lg8bjIM?purpose=inline)
+
+Demonstrates the interaction between a student and the AI assistant.
+
+Screenshot 3
+
+Generated Study Notes
+
+![EduKitt - AI-powered learning SAAS platform | Codester](https://images.openai.com/static-rsc-4/zdisoMGoFxOsWaezH-hJXU2oJDIbGj0MqZj1wCK5wjSO2GQmo8cQBuV9j2kydlDA30bCTAwfwJluDX0nIt4YMwaOQehQjdk491CXRZqS1AaCJY-wh16ds3q7UKviCiPT7L_grq_N5Tei20bLxwKqULoUfyMxfzX8hfVA98zvUAw?purpose=inline)
+
+Demonstrates the automatic generation of learning materials.
+
+Screenshot 4
+
+Exam Preparation Module
+
+![EduPro - E-Learning & Exam Platform UI by Aashabul Imam on Dribbble](https://images.openai.com/static-rsc-4/lOzJYhaCCyEz6mUj2zyo-B1qPMSb3ulxpIxM9VmqmJmmMMHDSlpjSNnRzwj-i5jmWM2rpGfUdlXjTkkDz-M7uG4oUnr_1JOUt5mSwrWYDX6tFWyhPA7KFQgNyTrnPMwYeoEXHcC64RcxqPv3gEbLtDUUXSTJps3L97JMoFGe3Bk?purpose=inline)
+
+Demonstrates the generation of practice questions.
+
+Illustrative UI references. Replace with actual screenshots of your EduGenie application for project submission.
+
+### 6. Expected Demonstration Results
+
+* Application launches successfully.
+
+* Students can enter academic questions.
+
+* Gemini AI generates relevant responses.
+
+* Notes and summaries are displayed.
+
+* Exam practice questions can be generated.
+
+* The interface is easy to navigate.
+
+### 7. Sample Presentation Script
+
+"Good morning everyone. We are presenting our project EduGenie – Google Gemini Powered Learning Assistant.
+
+EduGenie is an AI-based educational platform designed to support students in their learning activities.
+
+It provides an AI chatbot, notes generation, text summarization, and examination preparation features.
+
+We have developed the frontend using HTML, CSS, and JavaScript, the backend using Python Flask, and integrated Google Gemini API for AI-powered responses.
+
+Now, we will demonstrate the working of our application."
+
+### 8. Conclusion
+
+The Project Demonstration Phase showcases the completed EduGenie system and explains how it addresses students' learning needs through artificial intelligence. It provides an opportunity to present the application's features, functionality, and practical applications.
+
+Next Phase: Phase 8 – Final Submission and Project Review.
