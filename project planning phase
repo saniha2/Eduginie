@@ -1,0 +1,318 @@
+# Phase 1: Project Planning Phase
+
+## Project Title: EduGenie – Google Gemini Powered Learning Assistant
+
+### 1. Introduction
+
+The Project Planning Phase is the first stage of the EduGenie project. It focuses on identifying the project objectives, scope, target users, required resources, timeline, and development strategy.
+
+EduGenie is a web-based AI-powered educational platform designed to help students understand academic topics, clarify doubts, generate study notes, summarize learning materials, and prepare for examinations using Google Gemini AI.
+
+### 2. Project Objectives
+
+1. To develop an AI-powered virtual learning assistant.
+
+2. To provide instant answers to students' academic questions.
+
+3. To generate simplified notes for different subjects.
+
+4. To summarize lengthy educational materials.
+
+5. To support students in examination preparation.
+
+6. To create a user-friendly and interactive learning platform.
+
+7. To integrate Google Gemini API for intelligent responses.
+
+### 3. Project Scope
+
+The project focuses on developing a web application that provides:
+
+* AI-powered chatbot.
+
+* Automatic notes generation.
+
+* Study material summarization.
+
+* Topic explanations with examples.
+
+* Exam-oriented questions and answers.
+
+* Interactive student interface.
+
+### 4. Target Users
+
+* College students
+
+* School students
+
+* Teachers
+
+* Self-learners
+
+* Competitive examination aspirants
+
+### 5. Required Resources
+
+Hardware Requirements
+
+|
+Component
+
+|
+
+Requirement
+
+|
+| --- | --- |
+|
+
+Processor
+
+|
+
+Intel i3 or equivalent
+
+|
+|
+
+RAM
+
+|
+
+Minimum 4 GB
+
+|
+|
+
+Storage
+
+|
+
+500 MB free space
+
+|
+|
+
+Internet
+
+|
+
+Stable connection
+
+|
+|
+
+Device
+
+|
+
+Laptop/Desktop
+
+|
+
+Software Requirements
+
+|
+Software
+
+|
+
+Purpose
+
+|
+| --- | --- |
+|
+
+Python
+
+|
+
+Backend development
+
+|
+|
+
+HTML
+
+|
+
+Web page structure
+
+|
+|
+
+CSS
+
+|
+
+Interface styling
+
+|
+|
+
+JavaScript
+
+|
+
+Interactive features
+
+|
+|
+
+Flask
+
+|
+
+Web application framework
+
+|
+|
+
+Google Gemini API
+
+|
+
+AI response generation
+
+|
+|
+
+VS Code
+
+|
+
+Code development
+
+|
+|
+
+Google Chrome
+
+|
+
+Application testing
+
+|
+
+### 6. Project Team
+
+|
+Team Member
+
+|
+
+Responsibility
+
+|
+| --- | --- |
+|
+
+Saniha
+
+|
+
+Project planning and documentation
+
+|
+|
+
+Visaha Kumar
+
+|
+
+Frontend development and UI design
+
+|
+|
+
+Prince Babu
+
+|
+
+Backend development and API integration
+
+|
+
+### 7. Project Timeline
+
+|
+Week
+
+|
+
+Activities
+
+|
+| --- | --- |
+|
+
+Week 1
+
+|
+
+Project selection and planning
+
+|
+|
+
+Week 2
+
+|
+
+Requirement analysis
+
+|
+|
+
+Week 3
+
+|
+
+System design and UI design
+
+|
+|
+
+Week 4
+
+|
+
+Frontend development
+
+|
+|
+
+Week 5
+
+|
+
+Backend and Gemini API integration
+
+|
+|
+
+Week 6
+
+|
+
+Testing and debugging
+
+|
+|
+
+Week 7
+
+|
+
+Documentation and final submission
+
+|
+
+### 8. Expected Outcome
+
+The expected outcome is a functional AI-powered learning assistant that enables students to ask questions, generate notes, understand difficult concepts, and prepare for examinations through a simple web interface.
+
+### 9. Conclusion
+
+The Project Planning Phase establishes the foundation for the successful development of EduGenie. It defines the objectives, scope, resources, team responsibilities, and development timeline. This planning helps the team proceed systematically to the next phase, Requirement Analysis.
