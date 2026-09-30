@@ -1,0 +1,221 @@
+# EduGenie – Google Gemini Powered Learning Assistant
+
+## Phase 1: Brainstorming & Ideation
+
+Project Phase 1
+
+Group 4
+
+### 1. Project Title
+
+EduGenie: Google Gemini Powered Learning Assistant
+
+### 2. Team Members
+
+1. Saniha
+
+2. Visaha Kumar
+
+3. Prince Babu
+
+### 3. Problem Statement
+
+Students often face difficulties understanding complex academic topics, solving doubts, preparing notes, and getting quick explanations during exam preparation. Traditional learning methods may not always provide personalized support or instant responses.
+
+Therefore, there is a need for an AI-powered educational platform that provides instant academic assistance, simplifies difficult concepts, generates study notes, and supports students in effective learning.
+
+### 4. Proposed Solution
+
+EduGenie is a web-based AI educational assistant powered by Google Gemini API. It provides students with an interactive platform to ask academic questions and receive clear, accurate, and easy-to-understand answers.
+
+The system helps students generate notes, summarize study materials, clarify doubts, and prepare for examinations through AI-powered learning support.
+
+### 5. Brainstorming Ideas
+
+|
+Ideas
+
+|
+
+Description
+
+|
+| --- | --- |
+|
+
+AI Chatbot
+
+|
+
+Answers students' academic questions
+
+|
+|
+
+Smart Notes Generator
+
+|
+
+Creates simplified notes
+
+|
+|
+
+Text Summarizer
+
+|
+
+Summarizes lengthy study materials
+
+|
+|
+
+Doubt Solver
+
+|
+
+Explains difficult concepts step by step
+
+|
+|
+
+Exam Preparation
+
+|
+
+Generates practice questions and answers
+
+|
+|
+
+Topic Explainer
+
+|
+
+Explains topics in simple language
+
+|
+|
+
+Interactive Interface
+
+|
+
+Provides a user-friendly learning experience
+
+|
+
+### 6. Target Users
+
+* School students
+
+* College students
+
+* University students
+
+* Teachers and educators
+
+* Students preparing for examinations
+
+### 7. Main Objectives
+
+1. To develop an AI-powered educational assistant.
+
+2. To provide instant answers to academic questions.
+
+3. To simplify complex topics using AI.
+
+4. To generate study notes and summaries.
+
+5. To support examination preparation.
+
+6. To improve students' learning experience through personalized assistance.
+
+### 8. Technologies Identified
+
+|
+Technology
+
+|
+
+Purpose
+
+|
+| --- | --- |
+|
+
+HTML
+
+|
+
+Web page structure
+
+|
+|
+
+CSS
+
+|
+
+Styling and responsive design
+
+|
+|
+
+JavaScript
+
+|
+
+Frontend functionality
+
+|
+|
+
+Python / Flask
+
+|
+
+Backend development
+
+|
+|
+
+Google Gemini API
+
+|
+
+AI-powered responses
+
+|
+|
+
+SQLite
+
+|
+
+Data storage (if required)
+
+|
+|
+
+VS Code
+
+|
+
+Development environment
+
+|
+
+### 9. Expected Outcome
+
+The expected outcome is a functional web-based educational platform that acts as a virtual learning assistant. Students will be able to interact with the AI chatbot, generate notes, summarize content, and receive academic guidance through a simple and interactive interface.
+
+### 10. Conclusion
+
+The brainstorming and ideation phase helped identify the major learning challenges faced by students and develop EduGenie as a potential AI-based solution. The project aims to make learning easier, faster, more interactive, and accessible through Google Gemini AI.
+
+## PHASE 1 COMPLETED
+
+EduGenie – Group 4
+
+Next Phase: Requirement Analysis & Planning
