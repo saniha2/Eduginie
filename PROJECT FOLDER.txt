@@ -1,0 +1,112 @@
+
+from flask import Flask, render_template, request, jsonify
+from google import genai
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+app = Flask(__name__)
+
+client = genai.Client(
+    api_key=os.getenv("GEMINI_API_KEY")
+)
+
+MODEL = "gemini-2.5-flash"
+
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+
+@app.route("/generate", methods=["POST"])
+def generate():
+    try:
+        data = request.get_json()
+
+        feature = data.get("feature", "chat")
+        topic = data.get("topic", "")
+        language = data.get("language", "English")
+
+        prompts = {
+            "chat": f"""
+            You are EduGenie, a friendly academic AI tutor.
+            Answer the student's question clearly and accurately.
+            Explain difficult concepts in simple language.
+            Use examples wherever helpful.
+            Question: {topic}
+            """,
+
+            "explain": f"""
+            Explain the academic topic '{topic}' in {language}.
+            Include:
+            1. Introduction
+            2. Simple explanation
+            3. Important points
+            4. Real-life examples
+            5. Conclusion
+            """,
+
+            "notes": f"""
+            Generate well-organized student study notes
+            on '{topic}' in {language}.
+            Include headings, definitions, key points,
+            examples and a short conclusion.
+            """,
+
+            "summarize": f"""
+            Summarize the following study material in {language}.
+            Include the main ideas, important terms,
+            and a short revision summary.
+
+            Material:
+            {topic}
+            """,
+
+            "quiz": f"""
+            Create 5 multiple-choice questions about '{topic}'.
+            Provide four options for each question.
+            Include the correct answer and a brief explanation.
+            Use {language}.
+            """,
+
+            "exam": f"""
+            Prepare exam revision material on '{topic}'.
+            Generate:
+            1. Five important questions
+            2. Short answers
+            3. Long-answer questions
+            4. Key points to remember
+            Use {language}.
+            """,
+
+            "translate": f"""
+            Explain the following academic content in {language}.
+            Keep the meaning accurate and easy for students.
+
+            Content:
+            {topic}
+            """
+        }
+
+        prompt = prompts.get(feature, prompts["chat"])
+
+        response = client.models.generate_content(
+            model=MODEL,
+            contents=prompt
+        )
+
+        return jsonify({
+            "success": True,
+            "answer": response.text
+        })
+
+    except Exception as e:
+        return jsonify({
+            "success": False,
+            "answer": "Something went wrong. Please check your API key and try again."
+        }), 500
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
