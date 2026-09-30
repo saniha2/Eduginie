@@ -1,0 +1,271 @@
+# Phase 4: Project Development Phase
+
+## Project Title: EduGenie – Google Gemini Powered Learning Assistant
+
+### 1. Introduction
+
+The Project Development Phase focuses on converting the system design into a working web application. In this phase, the frontend, backend, and Google Gemini API are integrated to create an AI-powered educational assistant.
+
+EduGenie is developed to help students ask academic questions, generate study notes, summarize learning materials, understand difficult topics, and prepare for examinations.
+
+### 2. Development Objectives
+
+1. Develop an interactive and user-friendly web interface.
+
+2. Implement an AI chatbot using Google Gemini API.
+
+3. Create a notes generation feature.
+
+4. Develop a text summarization module.
+
+5. Implement an exam preparation feature.
+
+6. Connect the frontend with the backend.
+
+7. Ensure smooth communication between the application and AI model.
+
+### 3. Technologies Used
+
+|
+Technology
+
+|
+
+Purpose
+
+|
+| --- | --- |
+|
+
+HTML
+
+|
+
+Structure of web pages
+
+|
+|
+
+CSS
+
+|
+
+Styling and responsive design
+
+|
+|
+
+JavaScript
+
+|
+
+Interactive functionality
+
+|
+|
+
+Python
+
+|
+
+Backend programming
+
+|
+|
+
+Flask
+
+|
+
+Web application framework
+
+|
+|
+
+Google Gemini API
+
+|
+
+AI-powered answer generation
+
+|
+|
+
+VS Code
+
+|
+
+Development environment
+
+|
+
+### 4. Development Process
+
+Step 1: Frontend Development
+
+The frontend is developed using HTML, CSS, and JavaScript. It includes:
+
+* Home page
+
+* Navigation menu
+
+* Chat interface
+
+* Question input box
+
+* Generate Notes button
+
+* Summarization section
+
+* Exam preparation section
+
+Step 2: Backend Development
+
+Python Flask is used to develop the backend. It handles user requests, processes input, communicates with the Gemini API, and returns generated responses.
+
+Step 3: Gemini API Integration
+
+Google Gemini API is integrated to provide intelligent responses.
+
+The process includes:
+
+1. Obtain a Gemini API key.
+
+2. Configure the API securely.
+
+3. Send student queries to the backend.
+
+4. Forward prompts to Gemini.
+
+5. Receive generated responses.
+
+6. Display answers on the webpage.
+
+Step 4: Feature Implementation
+
+|
+Feature
+
+|
+
+Implementation
+
+|
+| --- | --- |
+|
+
+AI Chatbot
+
+|
+
+Answers academic questions
+
+|
+|
+
+Notes Generator
+
+|
+
+Generates topic-based notes
+
+|
+|
+
+Text Summarizer
+
+|
+
+Summarizes long text
+
+|
+|
+
+Topic Explainer
+
+|
+
+Explains concepts simply
+
+|
+|
+
+Exam Preparation
+
+|
+
+Creates practice questions
+
+|
+
+### 5. Application Workflow
+
+Student enters a question
+
+EduGenie Web Interface
+
+HTML, CSS, JavaScript
+
+Flask Backend
+
+Processes the request
+
+Google Gemini API
+
+Generates AI response
+
+Answer displayed to student
+
+### 6. Development Screenshots
+
+The following screenshots should be captured after implementing the application.
+
+Screenshot 1
+
+EduGenie Home Page
+
+![Uxera — AI Learning Management Dashboard by Vektora UIUX for Vektora on Dribbble](https://images.openai.com/static-rsc-4/Tg8nl1hBPALQQZLtA4d6k9ndB-qkN-324tt9vd9gxsWjnqpv91yXp4T1qCvobG6BcH6VPS01GNCgvDXPqRYR7dPTgfIp2YeO2VXHUkfK3FWJnYqgdAdCN9VgjzxZO2sUF53UNgqTqCI3wD3mxZL0RhxXdb04bUA2ODVxxYMGHcc?purpose=inline)
+
+Home page showing the EduGenie title, welcome message, and learning options.
+
+Screenshot 2
+
+AI Chatbot Interface
+
+![StudyBuddy SaaS - Collaborative Student Productivity Tool by CloudOnex](https://images.openai.com/static-rsc-4/qj-mnir2HP1ejrbb_29E3sZxphC7twLlgNT7xIgKx2RQ9o4Gf8VvyYN6dpe-mgTZ0XMLATM0f1OFz6XWCO5fenZ4CvZPa1b_pbtQrEtG782svjSmpp2pEW9GoIAQdwuhTgL8XcGLbgbvG4OCNqS7PFOMC2Vq2mIcWNHfJ4ZHmYg?purpose=inline)
+
+Chat interface for entering questions and viewing AI-generated responses.
+
+Screenshot 3
+
+Notes Generation Interface
+
+![AI Chemistry Notes Generator — Curriculum Aligned | ChemAI](https://images.openai.com/static-rsc-4/vsWz13rmCaUZf5sA_ffpzjsYDxQY-jtiYzB-hU5vZsDE1uFlDxFAGobwsXkC4v6McxPjtkzxPHwaD9lc3pPtKq6H9FIwcN1ZAZFF9xftd1hXYdINV3Z3524vMObcOeUtTrkSC9Y1_CDMa3C6-RwbjcFn3dxTMQidVdGxQ3mYxPY?purpose=inline)
+
+Interface for generating simplified academic notes.
+
+These are illustrative design references, not screenshots of the actual EduGenie application.
+
+### 7. Expected Development Output
+
+After completing this phase, the application should provide:
+
+* Functional web interface.
+
+* Working AI chatbot.
+
+* Gemini API integration.
+
+* Notes generation.
+
+* Text summarization.
+
+* Exam preparation tools.
+
+* AI-generated responses displayed on the screen.
+
+### 8. Conclusion
+
+The Project Development Phase transforms the design and requirements into a functional AI-powered learning platform. By integrating frontend technologies, Python Flask, and Google Gemini API, EduGenie provides students with an interactive and intelligent educational assistant.
+
+Next Phase: Phase 5 – Testing and Validation.
